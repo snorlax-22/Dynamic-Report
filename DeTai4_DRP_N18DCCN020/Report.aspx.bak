@@ -1,0 +1,10 @@
+<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Main.master" CodeBehind="Report.aspx.cs" Inherits="DXWeb_N17DCCN170._Default" %>
+
+<%@ Register assembly="DevExpress.XtraReports.v16.1.Web, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.XtraReports.Web" tagprefix="dx" %>
+
+<asp:Content ID="Content" ContentPlaceHolderID="MainContent" runat="server">
+   
+    <dx:ASPxWebDocumentViewer ID="ASPxWebDocumentViewer1" runat="server">
+    </dx:ASPxWebDocumentViewer>
+
+</asp:Content>

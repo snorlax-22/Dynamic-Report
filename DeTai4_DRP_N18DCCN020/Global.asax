@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="DeTai4_DRP_N18DCCN020.Global_asax" Language="C#" %>
