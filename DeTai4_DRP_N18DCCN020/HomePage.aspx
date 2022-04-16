@@ -46,8 +46,11 @@
                        <Columns>
                            <asp:TemplateField>
                                <HeaderTemplate>
-                                   <asp:CheckBox ID="checkAll" runat="server" AutoPostBack="true" Text="Chọn tất cả"/>
-                               </HeaderTemplate>
+                                   <div class="form-check form-switch">
+                                       <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                   <asp:CheckBox class="form-check-label" ID="checkAll" runat="server" AutoPostBack="true" Text="Chọn tất cả"/>
+                               </div>
+                                       </HeaderTemplate>
                                    <ItemTemplate>
                                      <asp:CheckBox ID="ColumnChecked1" runat="server"/>
                                    </ItemTemplate>
